@@ -19,7 +19,7 @@ public class Main {
                 }
                 case 2 -> {
                     System.out.println("Введите дату и к-во шагов (формата \"ДД.ММ ШАГИ\"): ");
-                    scanner.nextLine();  // Consume newline
+                    scanner.nextLine();
                     String input = scanner.nextLine();
                     String[] parts = input.split(" ");
                     String[] dateParts = parts[0].split("\\.");
